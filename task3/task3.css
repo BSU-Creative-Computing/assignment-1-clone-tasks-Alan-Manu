@@ -1,0 +1,45 @@
+/* Change the background color of the third element with class "color" when hovered */
+:nth-child(3 of .color:hover) {
+  background-color: #444;
+}
+
+/* Set the width, height, background color, alignment, margin, and border radius of the third element with class "circle" */
+:nth-child(3 of .circle) {
+  width: 90px;
+  height: 90px;
+  background-color: #ed6663;
+  align-self: center;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* Change the background color of the third element with class "circle" when hovered */
+:nth-child(3 of .circle:hover) {
+  background-color: #444;
+}
+
+/* Set the background color and height of the fourth element with class "color" */
+:nth-child(4 of .color) {
+  background-color: #ffa372;
+  height: 40px;
+}
+
+/* Change the background color of the fourth element with class "color" when hovered */
+:nth-child(4 of .color:hover) {
+  background-color: #444;
+}
+
+/* Set the width, height, background color, alignment, margin, and border radius of the fourth element with class "circle" */
+:nth-child(4 of .circle) {
+  width: 100px;
+  height: 100px;
+  background-color: #ffa372;
+  align-self: center;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* Change the background color of the fourth element with class "circle" when hovered */
+:nth-child(4 of .circle:hover) {
+  background-color: #444;
+}/*# sourceMappingURL=task3.css.map */

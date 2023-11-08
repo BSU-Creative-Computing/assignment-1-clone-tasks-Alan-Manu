@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <!-- Create a container div -->
+    <div class="container">
+        <!-- Create an image div -->
+        <div class="image">
+            <!-- Use the picture element to provide multiple sources for the image -->
+            <picture>
+                <!-- Set the source for screens with a maximum width of 480px -->
+                <source srcset="https://via.placeholder.com/200" media="(max-width:480px)">
+                <!-- Set the source for screens with a maximum width of 800px -->
+                <source srcset="https://via.placeholder.com/300" media="(max-width:800px)">
+                <!-- Set the source for screens with a minimum width of 801px -->
+                <source srcset="https://via.placeholder.com/400" media="(min-width:801px)">
+                <!-- Set the default source for the image -->
+                <img src="https://via.placeholder.com/400" alt="Image">
+            </picture>
+        </div>
+
+        <!-- Create a footer div -->
+        <div class="footer"></div>
+
+        <!-- Create a colors div -->
+        <div class="colors">
+            
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        
+        <!-- Create a circles div -->
+        <div class="circles">
+            
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <!-- Create another footer div -->
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
